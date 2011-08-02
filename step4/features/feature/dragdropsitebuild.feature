@@ -18,5 +18,5 @@ Scenario Outline: User is able to drag and drop and edit content
 
 Examples:
    |url|                               |username|                     |password|           |modulename|      |context|
-   |"http://qa.members.webs.com"|      |"automationsitebuilderfinch"| |"automationtest"|   |"title"|         |"hello"|
+   |"http://qa.members.webs.com"|      |"automationsitebuilderfinch"| |"automationtest"|   |"sitebuilder_finch"|         |"hello"|
   
