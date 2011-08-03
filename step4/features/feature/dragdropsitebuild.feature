@@ -8,7 +8,7 @@ Feature:Sitebuild finch proof of concept.
 Scenario Outline: User is able to drag and drop and edit content
      Given an url <url>
      When user login with <username> and <password>
-     Then user click on "Home" in sitemanager
+     Then user click on "sitebuilder_finch" in sitemanager
      When user drag and drop <modulename> box
      And the <modulename> box should appear on the page
      When user edit <modulename> box with <context>
@@ -18,5 +18,5 @@ Scenario Outline: User is able to drag and drop and edit content
 
 Examples:
    |url|                               |username|                     |password|           |modulename|      |context|
-   |"http://qa.members.webs.com"|      |"automationsitebuilderfinch"| |"automationtest"|   |"sitebuilder_finch"|         |"hello"|
+   |"http://qa.members.webs.com"|      |"automationsitebuilderfinch"| |"automationtest"|   |"text"|         |"hello"|
   

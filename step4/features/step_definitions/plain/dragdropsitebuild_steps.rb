@@ -6,6 +6,7 @@ Given /^an url "([^"]*)"$/ do |url|
 end
 
 When /^user drag and drop "([^"]*)" box$/ do |modulename|
+    @Sitebuilder.wait_for_iframe_to_load(@droppableiframe)
     @Sitebuilder.dragelement_into_iframe(modulename,@droppableiframe)
   end
 
